@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // modules
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 
 // material
 import { AppRoutingModule } from './app-routing.module';
@@ -30,6 +31,7 @@ import { DialogComponent } from './components/dialog/dialog.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     ReactiveFormsModule,
     MatButtonModule,
     MatDatepickerModule,

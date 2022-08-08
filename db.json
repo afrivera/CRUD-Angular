@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "apple",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 5,
+      "comment": "this is a fresh apple",
+      "date": "2022-08-09T05:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Pineapple",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 6,
+      "comment": "this a fresh pineapple",
+      "date": "2022-08-10T05:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "mango",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 7,
+      "comment": "this is not fresh fruit",
+      "date": "2022-08-17T05:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
