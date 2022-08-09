@@ -17,4 +17,12 @@ export class ApiService {
   getProduct(){
     return this._http.get<any>('http://localhost:3000/productList')
   }
+
+  updateProduct( product: any, id: number ){
+    return this._http.put<any>(`http://localhost:3000/productList/${ id }`, product)
+  }
+
+  deleteProduct( id: number ){
+    return this._http.delete<any>(`http://localhost:3000/productList/${ id }`)
+  }
 }

@@ -1,7 +1,7 @@
 {
   "productList": [
     {
-      "productName": "apple",
+      "productName": "apple edit",
       "category": "fruits",
       "freshness": "fresh",
       "price": 5,
@@ -10,7 +10,7 @@
       "id": 1
     },
     {
-      "productName": "Pineapple",
+      "productName": "Pineapple edit",
       "category": "fruits",
       "freshness": "fresh",
       "price": 6,
@@ -26,6 +26,51 @@
       "comment": "this is not fresh fruit",
       "date": "2022-08-17T05:00:00.000Z",
       "id": 3
+    },
+    {
+      "productName": "broccoli",
+      "category": "vegetables",
+      "freshness": "fresh",
+      "price": 10,
+      "comment": "mr broccoli",
+      "date": "2022-08-10T05:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "orange",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 7,
+      "comment": "delicious juice",
+      "date": "2022-08-17T05:00:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "coconut",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 9,
+      "comment": "hard coconut",
+      "date": "2022-08-17T05:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "strawberry",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 7,
+      "comment": "dfdf",
+      "date": "2022-08-10T05:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "apple",
+      "category": "fruits",
+      "freshness": "fresh",
+      "price": 5,
+      "comment": "this is a fresh apple",
+      "date": "2022-08-09T05:00:00.000Z",
+      "id": 8
     }
   ],
   "comments": [

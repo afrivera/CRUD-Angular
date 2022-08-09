@@ -16,8 +16,11 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
+import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
+import {MatSortModule} from '@angular/material/sort';
+import {MatTableModule} from '@angular/material/table';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { DialogComponent } from './components/dialog/dialog.component';
@@ -40,8 +43,11 @@ import { DialogComponent } from './components/dialog/dialog.component';
     MatIconModule,
     MatInputModule,
     MatNativeDateModule,
+    MatPaginatorModule,
     MatRadioModule,
     MatSelectModule,
+    MatSortModule,
+    MatTableModule,
     MatToolbarModule,
   ],
   providers: [],
